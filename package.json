@@ -1,0 +1,42 @@
+{
+  "name": "genkitx-deepseek",
+  "version": "1.0.0",
+  "description": "Genkit plugin for DeepSeek API integration",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "genkit",
+    "genkit-plugin",
+    "genkit-embedder",
+    "genkit-model",
+    "deepseek",
+    "plugin",
+    "openai",
+    "ai",
+    "genai",
+    "generative-ai"
+  ],
+  "author": "Oddbit",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oddbit/genkitx-deepseek.git"
+  },
+  "dependencies": {
+    "openai": "^4.83.0",
+    "zod": "^3.24.1"
+  },
+  "peerDependencies": {
+    "genkit": "^0.9.12"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.7",
+    "jest": "^27.4.5",
+    "ts-jest": "^27.1.2",
+    "typescript": "^4.5.4"
+  }
+}
