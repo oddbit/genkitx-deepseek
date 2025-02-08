@@ -45,7 +45,7 @@ export const deepseek = (options?: PluginOptions) =>
           ...model.info,
           configSchema: model.configSchema,
         },
-        deepseekRunner(model.name, client)
+        deepseekRunner(name, client)
       );
     }
   });
