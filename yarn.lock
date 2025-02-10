@@ -280,7 +280,7 @@
     partial-json "^0.1.7"
     uuid "^10.0.0"
 
-"@genkit-ai/core@0.9.12":
+"@genkit-ai/core@0.9.12", "@genkit-ai/core@^0.9.12":
   version "0.9.12"
   resolved "https://registry.yarnpkg.com/@genkit-ai/core/-/core-0.9.12.tgz#d14a848d06f3b0c2aec5bf8d0fa7a9e95bc05eb0"
   integrity sha512-QPJZ3TL5Iq2fyeo30MpUjd3ZLcYQf97RsitDZhMbGy3vMwbgig0nhEbJ6v/qaWsOMqSfIxJE/gETY3mMts1vRg==
