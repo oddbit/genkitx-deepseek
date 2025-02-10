@@ -2,6 +2,9 @@
 
 # Firebase Genkit DeepSeek Plugin
 
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202%2E0-lightgrey.svg)](https://github.com/TheFireCo/genkit-plugins/blob/main/LICENSE)
+
+
 **DeepSeek** is a community plugin for using DeepSeek APIs with [Firebase Genkit](https://github.com/firebase/genkit). This plugin provides a simple interface to DeepSeek’s chat and reasoning models through the Genkit plugin system.
 
 > **Note:** This plugin is based on the OpenAI plugin code from [The Fire Company](https://github.com/TheFireCo/genkit-plugins) and is distributed under the [Apache 2.0 License](https://github.com/oddbit/genkitx-deepseek/blob/main/LICENSE).
@@ -52,6 +55,3 @@ console.log(response.text);
 ## License
 
 This project is licensed under the [Apache 2.0 License](https://github.com/oddbit/genkitx-deepseek/blob/main/LICENSE).
-
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202%2E0-lightgrey.svg)](https://github.com/TheFireCo/genkit-plugins/blob/main/LICENSE)
-
