@@ -1,4 +1,4 @@
-![Firebase Genkit + DeepSeek](https://github.com/oddbit/genkitx-deepseek/blob/main/assets/genkit-deepseek.png?raw=true)
+![Firebase Genkit + DeepSeek](https://github.com/oddbit/genkitx-deepseek/raw/main/assets/genkit-deepseek.png)
 
 # Firebase Genkit DeepSeek Plugin
 
