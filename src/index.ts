@@ -1,5 +1,5 @@
-import { genkitPlugin } from "@genkit-ai/core";
 import { Genkit } from "genkit";
+import { genkitPlugin } from "genkit/plugin";
 import { OpenAI } from 'openai';
 import {
   deepseekChat,
