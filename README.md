@@ -47,7 +47,7 @@ const ai = genkit({
 ```typescript
 const response = await ai.generate({
   model: deepseekChat,
-  prompt: 'Tell me joke!',
+  prompt: 'Tell me a joke!',
 });
 
 console.log(response.text);
