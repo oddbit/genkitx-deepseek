@@ -1,0 +1,24 @@
+{
+    "name": "genkitx-deepseek-example",
+    "version": "1.0.0",
+    "description": "Example application to test the genkitx-deepseek plugin",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "start": "npm run build --prefix .. && npx genkit start",
+        "test": "echo \"No tests specified\" && exit 0"
+    },
+    "author": "Oddbit",
+    "license": "Apache-2.0",
+    "dependencies": {
+        "dotenv": "^16.4.7",
+        "genkit": "^1.0.4",
+        "genkitx-deepseek": "file:../"
+    },
+    "devDependencies": {
+        "@types/node": "^16.11.7",
+        "genkit-cli": "^1.0.4",
+        "typescript": "^4.5.4"
+    }
+}
