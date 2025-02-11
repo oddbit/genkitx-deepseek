@@ -1,6 +1,6 @@
 {
   "name": "genkitx-deepseek",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Genkit plugin for DeepSeek API integration",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
