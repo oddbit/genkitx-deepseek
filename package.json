@@ -27,16 +27,14 @@
     "url": "git+https://github.com/oddbit/genkitx-deepseek.git"
   },
   "dependencies": {
-    "@genkit-ai/core": "^0.9.12",
     "openai": "^4.83.0",
     "zod": "^3.24.1"
   },
-  "peerDependencies": {    
-    "genkit": "^0.9.12"
+  "peerDependencies": {
+    "genkit": "^1.0.4"
   },
   "devDependencies": {
     "@types/node": "^16.11.7",
-    "genkit": "^0.9.12",
     "jest": "^27.4.5",
     "ts-jest": "^27.1.2",
     "typescript": "^4.5.4"
