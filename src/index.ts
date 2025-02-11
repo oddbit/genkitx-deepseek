@@ -36,7 +36,14 @@ export {
  */
 export const deepseek = (options?: PluginOptions) =>
   genkitPlugin("deepseek", async (ai: Genkit) => {
-    const client = new OpenAI(options);
+    const apiKey = options?.apiKey || process.env.DEEPSEEK_API_KEY;
+    if (!apiKey) {
+      throw new Error("Deepseek API key is required. Pass plugin options or set DEEPSEEK_API_KEY environment variable.");
+    }
+
+    const baseURL = options?.baseURL || process.env.DEEPSEEK_API_URL || 'https://api.deepseek.com';
+    
+    const client = new OpenAI({apiKey, baseURL});
     for (const name of Object.keys(SUPPORTED_DEEPSEEK_MODELS)) {
       const model = SUPPORTED_DEEPSEEK_MODELS[name];
       ai.defineModel(
