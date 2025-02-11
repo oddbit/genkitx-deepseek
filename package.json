@@ -5,6 +5,8 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
+    "install": "npm install --save-peer", 
+    "build:clean": "npm run install && npm run build",
     "build": "tsc",
     "test": "jest"
   },
