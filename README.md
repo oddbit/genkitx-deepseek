@@ -4,7 +4,7 @@
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202%2E0-lightgrey.svg)](https://github.com/oddbit/genkitx-deepseek/blob/main/LICENSE)
 ![NPM version](https://img.shields.io/npm/v/genkitx-deepseek.svg)
-
+![NPM Weekly Downloads](https://img.shields.io/npm/dw/genkitx-deepseek)
 
 **DeepSeek** is a community plugin for using DeepSeek APIs with [Firebase Genkit](https://github.com/firebase/genkit). This plugin provides a simple interface to DeepSeek’s chat and reasoning models through the Genkit plugin system.
 
@@ -37,7 +37,6 @@ import deepseek, { deepseekChat } from 'genkitx-deepseek';
 
 const ai = genkit({
   plugins: [deepseek({ apiKey: process.env.DEEPSEEK_API_KEY })],
-  // Optionally specify a default model if not provided in generate params:
   model: deepseekChat,
 });
 ```
